@@ -16,7 +16,7 @@ public class MovimientoCompuesto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float angulo = 5f * Time.deltaTime * velocidad;
+        float angulo = 18f * Time.deltaTime * velocidad;
         //rotacion izquierda
         if (Input.GetKey(KeyCode.Q))
         {

@@ -16,7 +16,7 @@ public class MovEnemigo : MonoBehaviour
     void Start()
     {
         auxComponenteDistance = GetComponent<CalcularDist>();
-        velocidad = 0.5f * Time.deltaTime;
+        velocidad = 0.15f * Time.deltaTime;
     }
 
     // Update is called once per frame
