@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Jugador
   - Enemy
+  - Puntos
   layers:
   - Default
   - TransparentFX
