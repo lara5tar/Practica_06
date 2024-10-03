@@ -22,8 +22,7 @@ public class Lookat : MonoBehaviour
     void Update()
     {
         float distanciaAlenemigo = auxComponenteDistance.getDistance();
-        
-        if (distanciaAlenemigo < 6.5f)
+        if (distanciaAlenemigo < 15.5f)
         {
             float varY = ubi_obj_a_mirar.position.y;
             if (varY > 3.0f)
