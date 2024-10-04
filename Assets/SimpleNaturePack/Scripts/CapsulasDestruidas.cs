@@ -25,7 +25,7 @@ public class CapsulasDestruidas : MonoBehaviour
             Destroy(obj);
             contador_enemigo++;
             //Debug.Log("enemigos: "+contador_enemigo);
-            contadorenemigo.text="enemigos: "+contador_enemigo.ToString();
+            contadorenemigo.text=contador_enemigo.ToString();
         }
     }
 }
