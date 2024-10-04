@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Practica_06.sln"
+    "dotnet.defaultSolution": "asset_test.sln"
 }
